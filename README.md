@@ -44,19 +44,11 @@ curl "http://localhost:8000/block/1"
 #### Response Example
 ```json
 {
-    "hash": "a1e791905c8dca79546f827ee6dd4d7dca0f860638064b1f400aa1be09ba7222",
+    "hash": "c035d3bf898be9d59ff62df2bc8c666fbc1767eaccd9dba767f2562e11ae0330",
     "height": 1,
-    "time": "1534715355",
-    "previousBlockHash": "2a2e16c1acbd7acc7129fc76c68e643fd3907dfc5af1ac344e030c531a498585",
-    "body": {
-        "address": "1JhzgwjPp8xGswhfNHvoPmiANTe21r6Wq3",
-        "star": {
-            "dec": "-1° 2' 3.4",
-            "ra": "00h 00m 0.0s",
-            "story": "53746172206578616d706c652073746f7279",
-            "storyDecoded": "Star example story"
-        }
-    }
+    "time": "1541788814",
+    "previousBlockHash": "2a8488d9c33ba514e07f3b3a3a7decb1c0e4a750f35c4c6237134b6c8f249379",
+    "body": "Testing block with test string data"
 }
 ```
 
@@ -87,10 +79,11 @@ curl -X "POST" "http://localhost:8000/block" \
 #### Response Example
 ```json
 {
-    "hash": "0c6d3cd60169bdb3c7be5eef54f7fab12899adcd4243ccd05b2cca3e0de2b0c4",
+    "hash": "c035d3bf898be9d59ff62df2bc8c666fbc1767eaccd9dba767f2562e11ae0330",
     "height": 1,
-    "time": "1541787241",
-    "previousBlockHash": "a03ab9a29ab764dbd310c08dd7d4f660d7cc0bddeb5478c60aac15af4b72a7ea"
+    "time": "1541788814",
+    "previousBlockHash": "2a8488d9c33ba514e07f3b3a3a7decb1c0e4a750f35c4c6237134b6c8f249379",
+    "body": "Testing block with test string data"
 }
 ```
 
