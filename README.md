@@ -101,3 +101,6 @@ If there are any errors occured response contains an error reason in `details` f
 
 ### Testing Endpoints
 For testing endpoints you can also using different GUI tools. For example: [Postman](https://www.getpostman.com).
+
+### License
+[MIT](LICENSE)
